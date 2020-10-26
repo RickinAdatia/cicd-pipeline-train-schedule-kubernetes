@@ -1,8 +1,6 @@
 ---
 AWSTemplateFormatVersion: '2010-09-09'
-Description: The BHNAutoScaledElbDNSWithCodeDeploy creates an Auto Scaling group behind
-  a load balancer with all given input parameters and starts the initial number instances
-  of the specified AMI.
+Description:
 Outputs:
   URL:
     Description: URL of the website
